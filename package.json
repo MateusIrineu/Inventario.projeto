@@ -1,5 +1,16 @@
 {
   "dependencies": {
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "name": "inventario.projeto",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./inventario/src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
