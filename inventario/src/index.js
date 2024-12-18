@@ -1,6 +1,14 @@
 import PromptSync from "prompt-sync";
+import produtosView from "./views/produtosView";
 
 const prompt = PromptSync();
+
+/**
+* Arquivo principal do sistema.
+* - Inicia o sistema e exibe o menu principal.
+* - Gerencia a navegação entre os menus de produtos, categorias e
+relatórios.
+*/
 
 const menuPrincipal = () => {
     console.clear();
@@ -16,8 +24,8 @@ const menuPrincipal = () => {
     const opcao = prompt("Escolha a opção desejada: ");
     switch(opcao) {
         case "1":
-            // gerenciarProdutos();
-            // break;
+            produtosView();
+            break;
         case "2":
             // gerenciarCategorias();
             // break;
